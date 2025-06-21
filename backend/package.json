@@ -1,5 +1,5 @@
 {
-  "name": "my-str",
+  "name": "backend",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -24,14 +24,18 @@
     "react-router-dom": "^6.0.0",
     "styled-components": "^6.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "29075d89-fad5-4fc0-929a-f63ed850f2e5",
-    "installId": "0ad098b459d92a038ffd63ed486241a6991097871bff2001fb01a21eda1b2d4f"
+    "uuid": "33896948-c01a-4453-9b3f-3504cebfd625",
+    "installId": "faed8e6aabe0a30d2a1db5fcc01e88ec1cd5207dc8d0664f60e517b6b24829ea"
   }
-  
 }
